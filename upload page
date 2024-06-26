@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstpageActivity2"
+    android:background="@drawable/second">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="292dp"
+        android:layout_height="89dp"
+        android:layout_weight="1"
+        android:layout_x="66dp"
+        android:layout_y="64dp"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:text="Upload Song" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="196dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:hint="Song Title" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="271dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:hint="Artist" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="340dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Album"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_x="94dp"
+        android:layout_y="435dp"
+        android:backgroundTint="#07FFFFFF"
+        android:hint="Upload File" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="514dp"
+        android:text="Upload Song"
+        android:backgroundTint="#8BC34A"/>
+</AbsoluteLayout>
